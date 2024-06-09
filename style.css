@@ -58,8 +58,8 @@ body{
 
 .meal-types h1{
     text-transform: uppercase;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
     display: block;
     background-color: #D0A933;
     border: 2px solid black;
@@ -170,10 +170,10 @@ body{
 /*=================== MEAL INFO ===================*/
 
 .meal-info img{
-    width: 300px;
+    width: 250px;
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     position:relative; 
     overflow:hidden;
 }
@@ -189,8 +189,73 @@ body{
     color:  #e0bb4d;
 }
 
+.about-meal{
+    display: block;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+    width: 80%;
+    padding-bottom: 50px;
+}
 
+.about-meal p{
+    padding: 10px;
+}
 
+.about-meal ul{
+    padding-left: 30px;
+}
+
+.about-meal li{
+    padding: 10px;
+}
+
+/*=================== PLACE ORDER ===================*/
+
+.submit-form textarea{
+    height: 200px;
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.button{
+    display: block;
+    width: 150px;
+    background-color: #D0A933;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+#thank-you h1{
+    color: #e0bb4d;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#thank-you a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #D0A933;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
 
 /*=================== MEDIA QUERY ===================*/
 
