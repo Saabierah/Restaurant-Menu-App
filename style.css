@@ -170,7 +170,7 @@ body{
 /*=================== MEAL INFO ===================*/
 
 .meal-info img{
-    width: 250px;
+    width: 200px;
     display: block;
     margin: auto;
     margin-top: 50px;
@@ -255,6 +255,15 @@ body{
     margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    word-spacing: 10px;
+}
+
+#thank-you img{
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 /*=================== MEDIA QUERY ===================*/
