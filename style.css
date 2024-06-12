@@ -174,10 +174,32 @@ body{
     margin-top: 30px;
 }
 
+.meal-items-dessert img{
+    width: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.meal-items-dessert-1 img{
+    width: 150px;
+    margin-top: 20px;
+}
+
 /*=================== MEAL INFO ===================*/
 
 .meal-info img{
     width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    position:relative; 
+    overflow:hidden;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.meal-info-dessert img{
+    width: 300px;
     display: block;
     margin: auto;
     margin-top: 40px;
