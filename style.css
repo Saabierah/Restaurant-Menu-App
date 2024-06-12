@@ -136,7 +136,7 @@ body{
     margin: auto;
     width: 60%;
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #e0bb4d;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -166,6 +166,7 @@ body{
     float: right;
     width: 100px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .meal-items-drink{
@@ -182,6 +183,7 @@ body{
     position:relative; 
     overflow:hidden;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .meal-info h1{
@@ -224,8 +226,9 @@ body{
     width: 70%;
     margin: auto;
     display: block;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 50px;
+    padding: 10px;
 }
 
 .button{
@@ -272,6 +275,7 @@ body{
     margin: auto;
     margin-top: 30px;
     padding-bottom: 10px;
+    border-radius: 30px;
 }
 
 /*=================== MEDIA QUERY ===================*/
