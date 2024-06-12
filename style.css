@@ -157,7 +157,7 @@ body{
     text-transform: uppercase;
 }
 
-.meal-items h2{
+.meal-items p{
     padding: 10px;
     font-size: 20px;
 }
@@ -178,9 +178,10 @@ body{
     width: 250px;
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     position:relative; 
     overflow:hidden;
+    margin-bottom: 30px;
 }
 
 .meal-info h1{
@@ -224,6 +225,7 @@ body{
     margin: auto;
     display: block;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .button{
@@ -295,8 +297,12 @@ body{
         font-size: 20px;
     }
 
-    .meal-items h2{
-        font-size: 15px;
+    .meal-items p{
+        font-size: 17px;
+    }
+
+    .meal-info img{
+        width: 180px;
     }
 }
 
