@@ -179,13 +179,18 @@ body{
 
 .meal-items-dessert img{
     width: 140px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    position: absolute ;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
 }
 
 .meal-items-dessert-1 img{
     width: 150px;
-    margin-top: 20px;
+    position: absolute;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%);
 }
 
 .meals-items-meals img{
@@ -312,16 +317,19 @@ body{
 /*=================== MEDIA QUERY ===================*/
 
 
-@media (min-width: 200px) and (max-width: 420px) {
+@media (min-width: 200px) and (max-width: 899px) {
 
     .meal-items h1{
         padding-top: 170px;
         text-align: center;
+        font-size: 20px;
+        margin-bottom: -20px;
     }
 
     .meal-items p{
         padding-top: 5px;
         text-align: center;
+        font-size: 18px;
     }
 
     .meal-items img{
@@ -353,13 +361,21 @@ body{
         margin-top: -30px;
     }
 
-    .meal-items-dessert-1{
-       margin-top: 25px;
-    }
+    .meal-items-dessert{
+        position: relative;
+        top: 0;  
+        transform: translateY(50%); 
+     }
+
+     .meal-items-dessert-1{
+        position: relative;
+        top: 10%;  
+        transform: translateY(50%);
+     }
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     #home img{
         width: 200px;
     }
@@ -372,31 +388,8 @@ body{
         padding-top: 200px;
     }
 
-    .meal-items{
-        width: 80%;
-    }
-
-    .meal-items h1{
-        font-size: 18px;
-        margin-bottom: -20px;
-    }
-
-    .meal-items p{
-        font-size: 16px;
-    }
-
     .meal-info img{
         width: 180px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .meal-items h1{
-        font-size: 20px;
-    }
-
-    .meal-items p{
-        font-size: 18px;
-    }
-
-}
