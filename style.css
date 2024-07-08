@@ -214,6 +214,17 @@ body{
     border-radius: 20px;
 }
 
+.meal-info-meals img{
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    position:relative; 
+    overflow:hidden;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
 .meal-info-dessert img{
     width: 300px;
     display: block;
@@ -400,6 +411,10 @@ body{
 
     .meal-info img{
         width: 180px;
+    }
+
+    .meal-info-meals img{
+        width: 220px;
     }
 }
 
