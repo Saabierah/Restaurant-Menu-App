@@ -194,8 +194,11 @@ body{
 }
 
 .meals-items-meals img{
-    width: 200px;
-    margin-top: 10px;
+    width: 180px;
+    position: absolute;
+    top: 50%; 
+    right: 0;
+    transform: translateY(-50%);
 }
 
 /*=================== MEAL INFO ===================*/
@@ -372,6 +375,13 @@ body{
         top: 10%;  
         transform: translateY(50%);
      }
+
+     .meals-items-meals img{
+        width: 160px;
+        position: absolute;
+        top: 10%;  
+        transform: translateX(-50%);
+    }
 
 }
 
