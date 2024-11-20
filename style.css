@@ -387,6 +387,13 @@ body{
         margin-top: -30px;
     }
 
+    .meal-items-drinks-tall img{
+        top: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .meal-items-dessert{
         position: relative;
         top: 0;  
