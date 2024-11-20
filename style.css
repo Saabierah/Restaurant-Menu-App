@@ -173,6 +173,13 @@ body{
     padding-top: 30px;
 }
 
+.meal-items-drinks-tall img{
+    position: absolute ;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
+}
+
 .meal-items-drinks h1{
     margin-top: -10px;
 }
@@ -367,12 +374,13 @@ body{
     }
 
     .meal-items{
-        min-height: 300px;
+        padding-bottom: 20px;
+        min-height: fit-content;
     }
 
 
     .meal-items-drinks{
-        margin-bottom: -30px;
+        margin-top: 10px;
     }
 
     .meal-items-drinks h1{
